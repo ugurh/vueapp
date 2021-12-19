@@ -11,6 +11,9 @@ const apiCall = axios.create({
 
 export default {
      getEvents(){
-        return apiCall.get('/events')
+        return apiCall.get('/events');
+    },
+    getEvent(id){
+        return apiCall.get('/events/'+ id);
     }
 }
