@@ -7,7 +7,7 @@
 
 <script>
 import EventCard from "@/components/EventCard";
-import axios from "axios"
+import EventService from '@/services/EventService.js'
 
 export default {
   name: "EventList",
@@ -20,10 +20,10 @@ export default {
     }
   },
   created (){
-    axios.get("https://my-json-server.typicode.com/Code-Pop/Real-World_Vue-3/events")
+    EventService.getEvents()
     .then(response => {
-      this.events = response.data;
-    }).catch(e =>{
+      this.events = response.data})
+    .catch(e =>{
       console.log(e);
     });
   }
