@@ -3,7 +3,7 @@
     <router-link :to="{ name: 'EventList' }">Events</router-link> |
     <router-link :to="{ name: 'About' }">About</router-link>
   </div>
-  <router-view />
+  <router-view :key="$route.fullPath" />
 </template>
 
 <style lang="scss">
