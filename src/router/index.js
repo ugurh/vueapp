@@ -35,13 +35,21 @@ const routes = [
         name: 'Register',
         component: Register
       },
+      
     ]
   },
   {
     path: '/about',
     name: 'About',
     component: About
-  }
+  },
+  {
+    path: '/events/:afterEvent(.*)',
+    redirect: to => {
+      return { path: '/event/' + to.params.afterEvent }
+    }
+  },
+  
 ]
 
 const router = createRouter({
