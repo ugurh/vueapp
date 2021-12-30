@@ -1,1 +1,20 @@
-{"version":3,"sources":["webpack:///./src/views/About.vue","webpack:///./src/views/About.vue?c45a"],"names":["class","script","__exports__","render"],"mappings":"iIACOA,MAAM,S,EACP,eAA6C,SAA1C,0CAAsC,G,GAAzC,G,wCADJ,eAEM,MAFN,EAEM,G,yBCFR,MAAMC,EAAS,GAGTC,EAA2B,IAAgBD,EAAQ,CAAC,CAAC,SAASE,KAErD","file":"js/about.3d7efcca.js","sourcesContent":["<template>\n  <div class=\"about\">\n      <p>A site for events to better the world.</p>\n  </div>\n</template>\n","import { render } from \"./About.vue?vue&type=template&id=29228ec2\"\nconst script = {}\n\nimport exportComponent from \"/home/harun/Documents/Vue/vueapp/node_modules/vue-loader-v16/dist/exportHelper.js\"\nconst __exports__ = /*#__PURE__*/exportComponent(script, [['render',render]])\n\nexport default __exports__"],"sourceRoot":""}
+{
+  "version": 3,
+  "sources": [
+    "webpack:///./src/views/About.vue",
+    "webpack:///./src/views/About.vue?c45a"
+  ],
+  "names": [
+    "class",
+    "script",
+    "__exports__",
+    "render"
+  ],
+  "mappings": "iIACOA,MAAM,S,EACP,eAA6C,SAA1C,0CAAsC,G,GAAzC,G,wCADJ,eAEM,MAFN,EAEM,G,yBCFR,MAAMC,EAAS,GAGTC,EAA2B,IAAgBD,EAAQ,CAAC,CAAC,SAASE,KAErD",
+  "file": "js/about.3d7efcca.js",
+  "sourcesContent": [
+    "<template>\n  <div class=\"about\">\n      <p>A site for events to better the world.</p>\n  </div>\n</template>\n",
+    "import { render } from \"./About.vue?vue&type=template&id=29228ec2\"\nconst script = {}\n\nimport exportComponent from \"/home/harun/Documents/Vue/vueapp/node_modules/vue-loader-v16/dist/exportHelper.js\"\nconst __exports__ = /*#__PURE__*/exportComponent(script, [['render',render]])\n\nexport default __exports__"
+  ],
+  "sourceRoot": ""
+}
