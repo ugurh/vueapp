@@ -7,6 +7,7 @@ import Register from '../views/Register.vue'
 import About from '../views/About.vue'
 import NotFound from '../views/NotFound'
 import NetworkError from '../views/NetworkError'
+import NProgress from 'nprogress'
 
 
 const routes = [
@@ -73,6 +74,14 @@ const routes = [
 const router = createRouter({
     history: createWebHistory(process.env.BASE_URL),
     routes
+})
+
+router.beforeEach(() => {
+    NProgress.start()
+})
+  
+router.afterEach(() => {
+    NProgress.done()
 })
 
 export default router
